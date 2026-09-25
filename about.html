@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Henry Radoff — Author</title>
+<meta name="description" content="Henry Radoff taught Holocaust history for thirty years and practiced law for fifty. Breaking Free is the true story he spent fifteen years researching to tell.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Karla:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --plum-950:#1A1420;
+    --plum-900:#2A1E36;
+    --plum-800:#3A2842;
+    --plum-700:#4A3050;
+    --plum-600:#5A3A5E;
+    --violet-glow:#7A4F84;
+    --noir:#1C160F;
+    --bronze-950:#221A10;
+    --bronze-900:#2E2313;
+    --ivory:#0A0A0A;
+    --ivory-dim:#111111;
+    --gold:#D4AF5E;
+    --gold-bright:#F0D28C;
+    --gold-soft:#EEDFB4;
+    --gold-dim:#C9A054;
+    --wine:#6E2A3B;
+    --wine-soft:#C79AA6;
+    --ink:#EDE8DE;
+    --ink-soft:#B9B2A6;
+    --paper-line:rgba(255,255,255,0.12);
+    --shadow-plum: 0 40px 90px -35px rgba(22,19,32,0.55);
+    --shadow-soft: 0 18px 40px -20px rgba(22,19,32,0.25);
+    --ease: cubic-bezier(.19,1,.22,1);
+  }
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  html, body{ cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyMicgaGVpZ2h0PScyMicgdmlld0JveD0nMCAwIDIyIDIyJz4KICA8Y2lyY2xlIGN4PScxMScgY3k9JzExJyByPSc4JyBmaWxsPSdub25lJyBzdHJva2U9JyNENEFGNUUnIHN0cm9rZS13aWR0aD0nMS4xJyBvcGFjaXR5PScwLjUnLz4KICA8Y2lyY2xlIGN4PScxMScgY3k9JzExJyByPSczLjQnIGZpbGw9JyNENEFGNUUnLz4KICA8Y2lyY2xlIGN4PScxMScgY3k9JzExJyByPScxLjInIGZpbGw9JyMyQTFFMzYnLz4KPC9zdmc+Cg==") 11 11, auto; }
+  a, button, .btn, .nav-toggle{ cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyNCcgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0Jz4KICA8cGF0aCBkPSdNMTIgMS41IEwyMSAxMiBMMTIgMjIuNSBMMyAxMiBaJyBmaWxsPScjRjBEMjhDJyBzdHJva2U9JyMyQTFFMzYnIHN0cm9rZS13aWR0aD0nMS4yJy8+CiAgPHBhdGggZD0nTTEyIDYgTDE3IDEyIEwxMiAxOCBMNyAxMiBaJyBmaWxsPSdub25lJyBzdHJva2U9JyMyQTFFMzYnIHN0cm9rZS13aWR0aD0nMC44JyBvcGFjaXR5PScwLjYnLz4KICA8Y2lyY2xlIGN4PScxMicgY3k9JzEyJyByPScxLjYnIGZpbGw9JyMyQTFFMzYnLz4KPC9zdmc+Cg==") 12 12, pointer; }
+  body{ margin:0; background:var(--ivory); color:var(--ink); font-family:"Karla",-apple-system,sans-serif; font-size:17px; line-height:1.7; -webkit-font-smoothing:antialiased; }
+  img{ max-width:100%; display:block; }
+  a{ color:inherit; text-decoration:none; }
+  h1,h2,h3{ font-family:"Cormorant Garamond",Georgia,serif; font-weight:600; margin:0; color:var(--gold-soft); }
+  .wrap{ max-width:1080px; margin:0 auto; padding:0 32px; }
+  @media (max-width:640px){ .wrap{ padding:0 22px; } }
+
+  .btn{ display:inline-flex; align-items:center; gap:.5em; padding:14px 30px; border-radius:2px; font-weight:600; font-size:.95rem; border:1px solid transparent; cursor:pointer; transition:transform .35s var(--ease), box-shadow .35s var(--ease), background .3s ease, color .3s ease, border-color .3s ease; }
+  .btn-gold{ background:linear-gradient(155deg, var(--gold-bright), var(--gold) 55%, var(--gold-dim)); color:var(--plum-950); }
+  .btn-gold:hover{ transform:translateY(-2px); box-shadow:0 14px 30px -12px rgba(203,166,83,.6); }
+  .btn-outline-plum{ background:transparent; border-color:var(--plum-900); color:var(--plum-900); }
+  .btn-outline-plum:hover{ background:var(--plum-900); color:var(--ink); transform:translateY(-2px); }
+
+  /* header */
+  .site-header{ position:sticky; top:0; z-index:100; background:rgba(22,19,32,.92); backdrop-filter:blur(14px); border-bottom:1px solid rgba(203,166,83,.16); }
+  .nav-inner{ max-width:1180px; margin:0 auto; padding:18px 32px; display:flex; align-items:center; justify-content:space-between; }
+  .logo{ font-family:"Cormorant Garamond",serif; font-size:1.25rem; color:var(--ink); font-weight:600; letter-spacing:.02em; }
+  .logo em{ color:var(--gold-bright); font-style:italic; }
+  .nav-links{ display:flex; gap:34px; }
+  .nav-links a{ color:rgba(251,249,244,.75); font-size:.92rem; font-weight:500; position:relative; padding-bottom:4px; transition:color .25s ease; }
+  .nav-links a::after{ content:""; position:absolute; left:0; right:100%; bottom:0; height:1px; background:var(--gold-bright); transition:right .3s var(--ease); }
+  .nav-links a:hover{ color:var(--ink); }
+  .nav-links a:hover::after{ right:0; }
+  .nav-links a.active{ color:var(--gold-bright); }
+  .nav-toggle{ display:none; background:none; border:none; color:var(--ink); font-size:1.4rem; cursor:pointer; }
+  @media (max-width:820px){
+    .nav-links{ position:absolute; top:100%; left:0; right:0; flex-direction:column; gap:0; background:var(--noir); max-height:0; overflow:hidden; transition:max-height .4s var(--ease); border-bottom:1px solid rgba(203,166,83,.16); }
+    .nav-links.open{ max-height:360px; }
+    .nav-links a{ padding:16px 32px; border-top:1px solid rgba(255,255,255,.06); }
+    .nav-toggle{ display:block; }
+  }
+
+  /* banner */
+  .banner{
+    position:relative;
+    overflow:hidden;
+    background:
+      radial-gradient(65% 70% at 88% 6%, rgba(240,210,140,.18), transparent 60%),
+      radial-gradient(55% 55% at 12% 18%, rgba(122,79,132,.18), transparent 62%),
+      radial-gradient(120% 140% at 50% 0%, var(--bronze-900) 0%, var(--noir) 65%);
+    color:var(--ink);
+    padding:100px 0 200px;
+    text-align:center;
+  }
+  .banner .tag{ font-family:"Cormorant Garamond",serif; font-style:italic; color:var(--gold-soft); display:block; margin-bottom:12px; }
+  .banner h1{ color:var(--ink); font-size:clamp(2.6rem,5.5vw,3.8rem); }
+  .banner p{ margin-top:16px; color:rgba(251,249,244,.78); max-width:520px; margin-left:auto; margin-right:auto; }
+
+  /* intro card overlapping banner */
+  .intro{ margin-top:-140px; padding-bottom:100px; background:var(--noir); }
+  .intro-card{
+    background:linear-gradient(165deg, var(--bronze-900), var(--noir));
+    border:1px solid rgba(203,166,83,.28);
+    box-shadow:0 40px 80px -40px rgba(22,19,32,.5);
+    padding:60px;
+    display:grid;
+    grid-template-columns:.6fr 1.4fr;
+    gap:56px;
+    align-items:center;
+  }
+  @media (max-width:820px){ .intro-card{ grid-template-columns:1fr; padding:36px 26px; gap:32px; } }
+
+  .portrait{
+    aspect-ratio:4/5;
+    background:linear-gradient(160deg,var(--bronze-900),var(--noir));
+    display:flex; align-items:center; justify-content:center;
+    position:relative; overflow:hidden;
+    border:1px solid rgba(212,175,94,.45);
+    box-shadow:var(--shadow-soft), 0 0 70px -18px rgba(212,175,94,.38), 0 0 90px -34px rgba(122,79,132,.18);
+  }
+  .portrait::before{ content:""; position:absolute; inset:12px; border:1px solid rgba(203,166,83,.5); }
+  .portrait .monogram{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:4.5rem; color:var(--gold-soft); }
+  .portrait img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+
+  .intro-body p{ margin:0 0 16px; color:rgba(251,249,244,.82); font-size:1.05rem; }
+  .intro-body p:last-child{ margin-bottom:0; }
+
+  /* facts */
+  .facts{ display:grid; grid-template-columns:repeat(4,1fr); gap:22px; padding:44px 0; border-top:1px solid var(--paper-line); border-bottom:1px solid var(--paper-line); margin-bottom:100px; }
+  @media (max-width:720px){ .facts{ grid-template-columns:1fr 1fr; } }
+  .facts .fact{ text-align:center; }
+  .facts .num{ font-family:"Cormorant Garamond",serif; font-size:2.4rem; color:var(--gold-soft); display:block; }
+  .facts .lbl{ font-size:.8rem; color:var(--ink-soft); letter-spacing:.02em; margin-top:4px; display:block; }
+
+  /* story sections */
+  .chapter{ padding:0 0 100px; }
+  .chapter-grid{ display:grid; grid-template-columns:.4fr 1.6fr; gap:56px; }
+  @media (max-width:820px){ .chapter-grid{ grid-template-columns:1fr; gap:20px; } }
+  .chapter-num{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:1.15rem; color:var(--gold-dim); border-left:2px solid var(--gold); padding-left:20px; }
+  .chapter-body h2{ font-size:clamp(1.6rem,3vw,2.1rem); margin-bottom:20px; }
+  .chapter-body p{ color:var(--ink); margin:0 0 18px; }
+  .chapter-body p:last-child{ margin-bottom:0; }
+
+  .quote-block{
+    background:linear-gradient(165deg, var(--bronze-900), var(--noir));
+    border-left:2px solid var(--gold-bright);
+    color:var(--ink);
+    padding:40px 46px;
+    margin:60px 0 100px;
+  }
+  .quote-block p{ font-family:"Cormorant Garamond",serif; font-style:italic; font-size:1.4rem; line-height:1.5; margin:0 0 14px; color:var(--ink); }
+  .quote-block cite{ font-style:normal; font-size:.85rem; color:var(--gold-soft); }
+
+  /* books grid */
+  .books-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:28px; margin-top:10px; }
+  @media (max-width:820px){ .books-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:520px){ .books-grid{ grid-template-columns:1fr; } }
+  .book-card{ background:var(--ivory-dim); border-left:3px solid var(--gold); padding:24px 22px; }
+  .book-card h3{ font-size:1.1rem; margin-bottom:8px; }
+  .book-card p{ color:var(--ink-soft); font-size:.94rem; margin:0; }
+
+  /* cta */
+  .cta{ background:var(--ivory-dim); padding:90px 0 100px; text-align:center; }
+  .cta h2{ font-size:clamp(1.8rem,3.5vw,2.3rem); margin-bottom:14px; }
+  .cta p{ color:var(--ink-soft); max-width:440px; margin:0 auto 34px; }
+  .cta-actions{ display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
+
+  /* footer */
+  .site-footer{ background:var(--noir); color:rgba(251,249,244,.55); padding:44px 0; text-align:center; font-size:.8rem; letter-spacing:.02em; border-top:1px solid rgba(203,166,83,.14); }
+  .site-footer a{ color:var(--gold-soft); }
+
+  .reveal{ opacity:0; transform:translateY(24px); transition:opacity .8s var(--ease), transform .8s var(--ease); }
+  .reveal.in{ opacity:1; transform:translateY(0); }
+  @media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; transition:none; } }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Henry <em>Radoff</em></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#story">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="trailer.html">Trailer</a>
+      <a href="books.html">Books</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<section class="banner">
+  <div class="wrap">
+    <span class="tag">About the Author</span>
+    <h1>Henry Radoff</h1>
+  </div>
+</section>
+
+<section class="intro">
+  <div class="wrap">
+    <div class="intro-card reveal">
+      <div class="portrait">
+        <img src="images/7.jpg" alt="Portrait of Henry Radoff" onerror="this.style.display='none'; this.parentElement.querySelector('.monogram').style.display='block';">
+        <span class="monogram">HR</span>
+      </div>
+      <div class="intro-body">
+        <p>Breaking Free is told by a grandfather sharing a long-kept story with his seven-year-old grandson on a rainy day. In November 1938, Herschel, a Jewish doctor in Freiburg, Germany, is ordered to a ghetto clinic, and his director urges him to take his wife, Sophia, and flee the country at once. Carrying a secret she has yet to share, Sophia joins Herschel on a dangerous journey through the Black Forest, where they are joined by fellow refugees Misha, Goldie, and their granddaughter, Sarah.</p>
+        <p>With help from brave strangers, a mountaineer named Herr Strup, and his remarkable rescue dog, Prinz, the group attempts a treacherous climb over the snowy mountains into Switzerland as German soldiers close in. When Herschel is wounded just short of safety, Prinz and fighters from the refugee camp rescue him, and the survivors finally find freedom. Based on true events, the story is a moving testament to courage, faith, and the will to live, ending with a quiet revelation that ties the past to the grandfather telling the tale.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="facts reveal">
+    <div class="fact"><span class="num">6</span><span class="lbl">Published Books</span></div>
+    <div class="fact"><span class="num">30</span><span class="lbl">Years Teaching Holocaust History</span></div>
+    <div class="fact"><span class="num">50</span><span class="lbl">Years Practicing Law</span></div>
+    <div class="fact"><span class="num">15</span><span class="lbl">Years Researching Breaking Free</span></div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section class="chapter">
+    <div class="chapter-grid">
+      <div class="chapter-num reveal">What Readers Should Know</div>
+      <div class="chapter-body reveal">
+        <h2>The classroom where it began</h2>
+        <p>I taught a Holocaust course to eleventh graders for thirty years and invited Holocaust survivors to speak to my class. One survivor friend, who was Dutch, had a friend from her hometown who was living in Freiburg, Germany, in 1938. He was a doctor, and when the Nazis invaded, he escaped to the British West Indies, where they later reunited. He told her the story of his escape, which she retold to me many years later. By that time, he had passed away.</p>
+        <p>In 2000, I attended the Second Annual Gathering of Holocaust Survivors and tried to tell the story to the Shoah Project. Since I was neither the survivor nor a child of the survivor, I was not able to participate. I did not want the story to go untold, so I researched it for fifteen years and initially wrote a movie script. After five years of having options on the script expire, I decided to write the book. Throughout this time, I continued to practice law in Houston, Texas, for fifty years.</p>
+      </div>
+    </div>
+
+    <div class="quote-block reveal">
+      <p>&ldquo;My inspiration for writing the book was the desire to have this story told. I felt that these experiences and the message behind them were important and deserved to be shared. Most of all, I wanted readers to connect with the story and find meaning in it.&rdquo;</p>
+      &mdash; Henry Radoff, on his inspiration for writing the book
+    </div>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-grid">
+      <div class="chapter-num reveal">Hope Tested, and Found</div>
+      <div class="chapter-body reveal">
+        <h2>The themes that recur in his work</h2>
+        <p>In my work, I often explore how hope and faith give ordinary people the strength to survive extraordinary darkness. In Breaking Free, Herschel and Sophia lose their home, their safety, and Herschel's position at the university in Freiburg in 1938, yet they choose to move toward freedom rather than surrender to fear. Their faith is tested in the forest, at the foot of a mountain they don't know how to climb, and under the guns of German soldiers, and even in hiding, little Sarah prays and asks God to bless everyone who helped them. Hope comes through unexpected sources, such as strangers who risk their lives and a loyal rescue dog named Prinz who guides them over the mountain and ultimately saves Herschel. As the book's opening declares, they survived because the will to live burns greater than the fire around them, and that is the message I hope every reader carries away.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-grid">
+      <div class="chapter-num reveal">Walking Alongside the Story</div>
+      <div class="chapter-body reveal">
+        <h2>How he wants to engage with readers</h2>
+        <p>I want my readers to walk alongside Herschel, Sophia, and their companions, feeling the cold of the mountain, the fear of the soldiers close behind, and the exhaustion of every step toward the Swiss border. Through their hardship, I hope readers see how faith and hope kept these survivors going when everything else had been taken from them. Just as the grandfather in the story finally shares the whole journey with his grandson, I want readers to understand why these memories must be passed on. My goal is for every reader to close the book not only moved by their fight for freedom, but inspired to help tell the world what happened so it is never forgotten.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-grid">
+      <div class="chapter-num reveal">Research, Law, and the Craft of Storytelling</div>
+      <div class="chapter-body reveal">
+        <h2>Where the stories come from</h2>
+        <p>Reading and doing research are my hobbies, and practicing law has deepened both, since it involves studying the history of statutes and ordinances and how they are interpreted. That experience helps bring my storytelling to life. I find pleasure in writing about positive outcomes in a negative world, and I write so that the reader can experience what my characters are feeling and observing. Even when I teach, I teach through stories.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-grid">
+      <div class="chapter-num reveal">Six Books</div>
+      <div class="chapter-body reveal">
+        <h2>The books he's published</h2>
+        <p>I've published six books. Taking Chancey and Chancey's Overture are humorous books about our dog, Chancey, telling how we got him and what he experienced through his own eyes. Breaking Free is my Holocaust book. Where the Squirrels Run is a journal I kept during the pandemic, covering more than four hundred days. I wrote it so that anyone doing research twenty years from now would have a source about the pandemic other than medical and legal books. Paradise 62 is inspired by the senior apartment complex where we live in Sugar Land, Texas, and is a work of fiction based on true events. My latest book, Solo 50, is about my life practicing law as a solo attorney with only one secretary and the major cases I was involved in.</p>
+        <div class="books-grid">
+          <div class="book-card"><h3>Taking Chancey</h3><p>A humorous book about our dog, Chancey, telling how we got him.</p></div>
+          <div class="book-card"><h3>Chancey's Overture</h3><p>A humorous book about our dog, Chancey, told through his own eyes.</p></div>
+          <div class="book-card"><h3>Breaking Free</h3><p>My Holocaust book.</p></div>
+          <div class="book-card"><h3>Where the Squirrels Run</h3><p>A journal I kept during the pandemic, covering more than four hundred days.</p></div>
+          <div class="book-card"><h3>Paradise 62</h3><p>Inspired by the senior apartment complex where we live in Sugar Land, Texas; a work of fiction based on true events.</p></div>
+          <div class="book-card"><h3>Solo 50</h3><p>About my life practicing law as a solo attorney with only one secretary, and the major cases I was involved in.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-grid">
+      <div class="chapter-num reveal">Home in Two Places</div>
+      <div class="chapter-body reveal">
+        <h2>What keeps him busy, and where he lives</h2>
+        <p>I am busy at in many projects. In the apartment complex I am referred to as the mayor since my wife Marla are among the first residents and can assist when asked.</p>
+        <p>I am currently based in Sugar Land, Texas, and Pensacola, Florida.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    &copy; <span id="year"></span> Henry Radoff</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', function(){ navLinks.classList.toggle('open'); });
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var revealEls = document.querySelectorAll('.reveal');
+  if(reduceMotion){
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  } else if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){ entry.target.classList.add('in'); io.unobserve(entry.target); }
+      });
+    }, { threshold:0.15, rootMargin:'0px 0px -60px 0px' });
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  }
+</script>
+
+</body>
+</html>
