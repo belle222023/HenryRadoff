@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Watch the Trailer — Breaking Free by Henry Radoff</title>
-<meta name="description" content="Watch the official book trailer for Breaking Free, a Holocaust novel of courage, faith, and the will to live by Henry Radoff.">
+<meta name="description" content="Watch the official book trailer and listen to the audiobook for Breaking Free, a Holocaust novel of courage, faith, and the will to live by Henry Radoff.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -125,7 +125,7 @@
       transition:max-height .4s var(--ease);
       border-bottom:1px solid rgba(212,175,94,.18);
     }
-    .nav-links.open{ max-height:320px; }
+    .nav-links.open{ max-height:380px; }
     .nav-links a{ padding:16px 32px; border-top:1px solid rgba(255,255,255,.06); }
     .nav-toggle{ display:block; }
   }
@@ -160,6 +160,14 @@
   .video-frame iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
   .video-cap{ text-align:center; margin-top:18px; font-size:.85rem; color:rgba(250,248,245,.6); }
 
+  .audiobook{ padding:100px 0 120px; background:var(--ivory); color:var(--ink); }
+  .audiobook .section-head h2{ color:var(--ink); }
+  .audiobook .section-head p{ color:rgba(250,248,245,.72); }
+  .audiobook .section-head .tag{ color:var(--gold); }
+  .audio-frame{ max-width:920px; margin:0 auto; border:1px solid rgba(212,175,94,.35); padding:10px; background:rgba(0,0,0,.15); }
+  .audio-frame iframe{ display:block; width:100%; height:220px; border:0; }
+  .audio-cap{ text-align:center; margin-top:18px; font-size:.85rem; color:rgba(250,248,245,.6); }
+
   .more-books{ padding:100px 0; background:var(--ivory); text-align:center; }
 
   /* ============ FOOTER ============ */
@@ -185,6 +193,7 @@
       <a href="about.html">About</a>
       <a href="trailer.html">Trailer</a>
       <a href="books.html">Books</a>
+      <a href="reviews.html">Reviews</a>
       <a href="gallery.html">Gallery</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -203,7 +212,7 @@
     </div>
     <div class="video-frame reveal">
       <div class="ratio">
-        <iframe src="https://drive.google.com/file/d/1CtZkqCYVE4OLVEsY9tcpkTPcv3mVuYgH/preview" allow="autoplay" allowfullscreen title="Breaking Free — Book Trailer"></iframe>
+        <iframe src="https://drive.google.com/file/d/1268BDn94JPnTjC9uyrF_7eAgifgSKWWa/preview" allow="autoplay" allowfullscreen title="Breaking Free — Book Trailer"></iframe>
       </div>
     </div>
     <p class="video-cap">Breaking Free &mdash; Book Trailer</p>
@@ -211,9 +220,24 @@
 </section>
 
 
+<section class="audiobook" id="audiobook">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="tag">Listen</span>
+      <h2>The Breaking Free audiobook</h2>
+      <p>Hear the story told aloud.</p>
+    </div>
+    <div class="audio-frame reveal">
+      <iframe src="https://drive.google.com/file/d/1sTeQuaRvHwR0zWBuzrZYsTv6IJR7JEZg/preview" allow="autoplay" title="Breaking Free — Audiobook"></iframe>
+    </div>
+    <p class="audio-cap">Breaking Free &mdash; Audiobook</p>
+  </div>
+</section>
+
+
 <footer class="site-footer">
   <div class="wrap">
-    &copy; <span id="year"></span> Henry Radoff </a>
+    &copy; <span id="year"></span> Henry Radoff
   </div>
 </footer>
 
